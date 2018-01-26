@@ -98,7 +98,7 @@ class Difficulty(object):
                 scala = 1.3
             else:
                 scala = 1.4
-            
+
             self.beatmap.difficulty[diff] = self.adjust_difficulty(self.beatmap.difficulty[diff], self.mods, scala)
 
         self.hitobjects_with_ticks = []
@@ -165,7 +165,7 @@ class Difficulty(object):
         """
         last_direction = 0
         player_width_half = self.player_width / 2
-        print("player_width_half: {}".format(player_width_half))
+        # print("player_width_half: {}".format(player_width_half))
         last = player_width_half
 
         for i in range(len(self.difficulty_objects) - 1):

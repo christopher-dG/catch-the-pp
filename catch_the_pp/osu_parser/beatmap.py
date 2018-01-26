@@ -28,7 +28,7 @@ class Beatmap(object):
         if "ApproachRate" not in self.difficulty.keys():    #Fix old osu version
             self.difficulty["ApproachRate"] = self.difficulty["OverallDifficulty"]
 
-        print("Beatmap parsed!")
+        # print("Beatmap parsed!")
 
     def parse_beatmap(self):
         """
@@ -46,7 +46,7 @@ class Beatmap(object):
         """
         Parse a beatmapfile line.
 
-        Handles lines that are required for our use case (Difficulty, TimingPoints & hitobjects), 
+        Handles lines that are required for our use case (Difficulty, TimingPoints & hitobjects),
         everything else is skipped.
         """
         if len(line) < 1:
