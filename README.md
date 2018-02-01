@@ -1,6 +1,6 @@
 # catch-the-pp
-An osu ctb gamemode star/pp calculator made in python
 
-A seperate branch will be available for single file script when project is complete.
+> An osu ctb gamemode star/pp calculator made in python
 
-(Standalone branch has been created)
+Importable mirror of [catch-the-pp](https://github.com/osufx/catch-the-pp).  
+You can add this to your `requirements.txt` via `git+https://github.com/christopher-dG/catch-the-pp`.
